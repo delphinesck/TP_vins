@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vins</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <div id="vins">
+            <h1>Vins</h1>
+            <!-- <h2>Vins rouges</h2>
+            <div class="vins_box container" id="rouge">
+                <div class="vin rouge" id="rouge1" draggable="true" position=0>🍷</div>
+                <div class="vin rouge" id="rouge2" draggable="true" position=1>🍷</div>
+                <div class="vin rouge" id="rouge3" draggable="true" position=2>🍷</div>
+                <div class="vin rouge" id="rouge4" draggable="true" position=3>🍷</div>
+                <div class="vin rouge" id="rouge5" draggable="true" position=4>🍷</div>
+            </div>
+
+            <h2>Vins rosés</h2>
+            <div class="vins_box container" id="rose">
+                <div class="vin rose" id="rose1" draggable="true" position=0>🍷</div>
+                <div class="vin rose" id="rose2" draggable="true" position=1>🍷</div>
+                <div class="vin rose" id="rose3" draggable="true" position=2>🍷</div>
+                <div class="vin rose" id="rose4" draggable="true" position=3>🍷</div>
+                <div class="vin rose" id="rose5" draggable="true" position=4>🍷</div>
+            </div>
+
+            <h2>Vins blancs</h2>
+            <div class="vins_box container" id="blanc">
+                <div class="vin blanc" id="blanc1" draggable="true" position=0>🍷</div>
+                <div class="vin blanc" id="blanc2" draggable="true" position=1>🍷</div>
+                <div class="vin blanc" id="blanc3" draggable="true" position=2>🍷</div>
+                <div class="vin blanc" id="blanc4" draggable="true" position=3>🍷</div>
+                <div class="vin blanc" id="blanc5" draggable="true" position=4>🍷</div>
+            </div> -->
+        </div>
+
+
+        <div id="vendeur">
+            <div id="listevendeurs">   
+                <h1>Vendeurs</h1>
+                <h3>
+                    <!-- <div class="vendeur" id="vendeur1">Vendeur 1</div> <div class="vendeur" id="vendeur2">Vendeur 2</div> <div class="vendeur" id="vendeur3">Vendeur 3</div> -->
+                </h3>
+            </div>
+            <div class="container bgvin" id="vinsvendeur">
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script>
+        System.import('main')
+          .catch(function(err){ console.error(err); });
+    </script>
+</body>
+</html>

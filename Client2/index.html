@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vins</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/_partials/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/_partials/tablet.css">
+    <link rel="stylesheet" href="styles/_partials/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+</head>
+<body>
+
+    <div id="pageconnexion" class="page">
+        <h1>Gestion des vins</h1>
+        <div id="connexion">
+            <div>
+                <h2>Connexion</h2>
+                <form id="formconnexion">
+                    <label>Nom d'utilisateur</label><br />
+                    <input type="text" id="username" value="robert" ><br /><br />
+
+                    <label>Mot de passe</label><br />
+                    <input type="password" id="upassword" value="robert" ><br /><br />
+
+                    <input type="submit" value="Se connecter">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="pagecategories" class="page">
+
+        <div id="categories_box">
+            <!-- <div class="categorievin" id="rouge">
+                <span>Rouge</span>
+            </div>
+
+            <div class="categorievin" id="rose">
+                <span>Rosé</span>
+            </div>
+
+            <div class="categorievin" id="blanc">
+                <span>Blanc</span>
+            </div> -->
+        </div>
+
+    </div>
+
+
+
+    <div id="pagevins" class="page">
+
+        <button id="retour1" class="retour">Retour</button>
+
+        <h4>Votre sélection de vins</h4>
+        <div id="pagevins_box">
+            <!-- <div class="vin_box rouge">
+                Vin rouge<br />
+                Bordeaux
+            </div>
+
+            <div class="vin_box rose">
+                Vin rosé<br />
+                Bordeaux
+            </div>
+
+            <div class="vin_box blanc">
+                Vin blanc<br />
+                Bordeaux
+            </div>
+
+            <div class="vin_box rouge">
+                Vin rouge<br />
+                Bordeaux
+            </div>
+        
+            <div class="vin_box rose">
+                Vin rosé<br />
+                Bordeaux
+            </div>
+        
+            <div class="vin_box blanc">
+                Vin blanc<br />
+                Bordeaux
+            </div>
+
+            <div class="vin_box rouge">
+                Vin rouge<br />
+                Bordeaux
+            </div>
+    
+            <div class="vin_box rose">
+                Vin rosé<br />
+                Bordeaux
+            </div>
+    
+            <div class="vin_box blanc">
+                Vin blanc<br />
+                Bordeaux
+            </div>
+    
+            <div class="vin_box rouge">
+                Vin rouge<br />
+                Bordeaux
+            </div>
+            
+            <div class="vin_box rose">
+                Vin rosé<br />
+                Bordeaux
+            </div>
+            
+            <div class="vin_box blanc">
+                Vin blanc<br />
+                Bordeaux
+            </div> -->
+        </div>
+    </div>
+
+
+
+    <div id="pagevinselect" class="page">
+
+        <button id="retour2" class="retour">Retour</button>
+        
+        <div id="pagevinselectbis">
+            <div id="vinselect_box">
+                <!-- <img src="http://www.punch-et-cocktail.com/media/catalog/product/cache/7/image/9df78eab33525d08d6e5fb8d27136e95/i/m/image_4960.jpg" class="imgvin">
+                <div id="vindescription">
+                    Vin rouge<br />
+                    <h5>Bordeaux</h5><br />
+                    Pays d'origine : France<br />
+                    Année : 2001<br />
+                    Contenance : 0,75L<br /><br />
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo ipsum eget mauris ullamcorper malesuada. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In congue nec lorem a semper. Proin sagittis porta metus, at tincidunt mi. Duis rhoncus tortor accumsan, iaculis nisl et, consequat nulla. Duis dignissim egestas augue sed condimentum. Cras tempor neque ut porttitor cursus. Curabitur varius eleifend suscipit. Aliquam dui purus, faucibus sed lobortis scelerisque, aliquet eu enim. Phasellus erat risus, aliquam id tempus sed, suscipit ut dui. Aenean sagittis consequat rhoncus. Donec at placerat urna.
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+    
+
+
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script>
+        System.import('main')
+          .catch(function(err){ console.error(err); });
+    </script>
+</body>
+</html>

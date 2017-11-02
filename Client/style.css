@@ -1,0 +1,125 @@
+main {
+    background-color: rgb(223, 212, 198);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h3 {
+    margin: 10px 0px;
+    font-family: 'Roboto-light', sans-serif;
+    /* border-bottom: 1px solid rgb(185, 163, 136); */
+}
+
+#vins {
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    width: 25%;
+    color: white;
+    padding: 0px 20px;
+}
+
+.vins_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    min-height: 50px;
+    min-width: 100px;
+}
+
+.vin {
+    height: 60px;
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px 3px 0px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 5px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 5px -5px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 5px -5px rgba(0,0,0,0.75);
+}
+
+.rouge {
+    background-color: rgb(184, 0, 0);
+}
+
+.rosé {
+    background-color: rgb(235, 168, 168);
+    color: black;
+}
+
+.blanc {
+    background-color: rgb(255, 242, 219);
+    color: black;
+}
+
+#vendeur {
+    width: 100%;
+}
+
+#listevendeurs {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    height: 15%;
+}
+
+.vendeur {
+    background-color: rgb(185, 163, 136);
+    padding: 10px;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#vinsvendeur {
+    background-color: white;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+#vinsvendeur .vin {
+    height: 120px;
+    width: 100px;
+    font-size: 80px;
+    padding: 20px 6px 0px 0px;
+    margin: 20px;
+}
+
+#vendeur1 {
+    background-color: white;
+    color: black;
+}
+
+.bgvin {
+    background-image: url("http://www.cmonanniversaire.com/wp-content/uploads/2015/08/verres-a-vin.png");
+    background-size: cover;
+    background-position: center;
+}
